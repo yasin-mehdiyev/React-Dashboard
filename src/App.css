@@ -1,0 +1,104 @@
+/* Reset CSS Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Reset CSS Theme */
+
+/* Customize Sidebar Active Theme */
+
+.active,
+.active .icon {
+    color: #005B96;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 19px;
+    color: #B3B3B3;
+}
+
+/* Customize Sidebar Active Theme */
+
+/* Customize Scroll Theme */
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #adadad;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+/* Customize Scroll Theme */
+
+/* Customize DatePicker Theme */
+
+.ant-picker {
+    background: rgb(27, 197, 189) !important;
+    border-radius: 5px !important;
+    padding: 6px !important;
+}
+
+.ant-picker-input input {
+    text-align: center !important;
+}
+
+.ant-picker-input>input,
+.ant-picker-input input::placeholder {
+    color: #fff !important;
+}
+
+.ant-picker-clear {
+    background: rgb(27, 197, 189) !important;
+}
+
+.ant-picker-suffix {
+    color: #fff !important;
+}
+
+/* Customize DatePicker Theme */
+
+/* Customize Table CSS Theme */
+
+.table-main {
+    padding: 5px 15px 10px;
+    cursor: pointer;
+}
+
+.table-main .table-wrap {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-main .table-wrap thead tr,
+.table-main .table-wrap tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.table-main .table-wrap thead th:first-child,
+.table-main .table-wrap tbody tr td.date {
+    text-align: left;
+}
+
+.table-main .table-wrap thead th,
+.table-main .table-wrap tbody tr td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* Customize Table CSS Theme */

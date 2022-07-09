@@ -1,0 +1,9 @@
+.accordionItemTitle {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    cursor: pointer;
+}

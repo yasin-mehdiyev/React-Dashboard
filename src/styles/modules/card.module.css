@@ -1,0 +1,10 @@
+.cardMain {
+    background: #F1FAFE;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardHeader {
+    background: none !important;
+    border: none !important;
+}
